@@ -1,0 +1,31 @@
+title: Get access token
+
+type: object
+properties:
+  uid:
+    type: string
+  profile:
+    type: object
+    properties:
+      username: 
+        type: string
+      firstname: 
+        type: string
+      lastname: 
+        type: string
+      org_id: 
+        type: string
+      org_name: 
+        type: string
+      roles:
+        type: array
+        items:              
+          type: string
+      permissions:
+        type: array
+        items: 
+          type: string
+  access_token:
+    type: string
+  expires_in:
+    type: number

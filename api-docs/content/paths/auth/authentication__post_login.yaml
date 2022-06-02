@@ -1,0 +1,21 @@
+operationId: login
+
+summary: |-
+  Login
+description: |-
+  The login flow, validates the credentails for the user with a valid `username` and `password`
+tags:
+  - Authentication & Authorization
+security: []
+requestBody:
+  content:
+    application/json:
+      schema:
+        "$ref": "./requests/login.yaml"
+responses:
+  "200":
+    description: OK
+    content:
+      application/json:
+        schema:
+          "$ref": "./responses/login.yaml"

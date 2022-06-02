@@ -1,0 +1,19 @@
+title: Login
+
+type: object
+properties:
+  uid:
+    type: string
+  member_org:                   
+    type: array
+    items:
+      type: object
+      properties:
+        _id:
+          type: string
+        name:
+          type: string
+  default_org:
+    type: string
+  refresh_token:
+    type: string

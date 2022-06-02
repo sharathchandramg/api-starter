@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": false,
+    "noUnusedLocals": false,
+    "outDir": "dist",
+    "strict": false,
+    "sourceMap": true,
+    "target": "es5",
+    "resolveJsonModule": true,
+    "skipLibCheck": true
+  },
+  "compileOnSave": false,
+  "include": [
+    "src/**/*.ts"
+  ]
+}

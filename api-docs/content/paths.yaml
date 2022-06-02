@@ -1,0 +1,8 @@
+#ACCOUNT
+"/api/account/login":
+  post:
+    "$ref": "./paths/auth/authentication__post_login.yaml"
+
+"/api/account/token":
+  post:
+    "$ref": "./paths/auth/authentication__post_renew_token.yaml"

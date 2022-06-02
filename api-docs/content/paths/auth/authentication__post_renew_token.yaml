@@ -1,0 +1,21 @@
+operationId: get_accesstoken
+
+summary: |-
+  Request access token
+description: |-
+  Requests a new access token based on the existing refresh token available on the system
+tags:
+  - Authentication & Authorization
+security: []
+requestBody:
+  content:
+    application/json:
+      schema:
+        "$ref": "./requests/get_access_token.yaml"
+responses:
+  "200":
+    description: OK
+    content:
+      application/json:
+        schema:
+          "$ref": "./responses/get_access_token.yaml"

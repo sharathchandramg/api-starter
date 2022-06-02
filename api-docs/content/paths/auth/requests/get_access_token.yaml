@@ -1,0 +1,14 @@
+title: Get access token
+
+type: object
+properties:
+  refresh_token:
+    type: string
+  org_id:
+    type: string
+  grant_type:
+    type: string
+required:
+  - refresh_token
+  - org_id
+  - grant_type

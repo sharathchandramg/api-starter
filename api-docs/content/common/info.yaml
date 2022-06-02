@@ -1,0 +1,13 @@
+title: LiteHouze Tower API
+description: |
+  LiteHouze Tower API is a set of REST-like HTTP APIs that expose many capabilities required to manage different activities on LiteHouze Tower.
+  The operations includes:
+  - Create, update & query entities lile data-sources, users, workspace
+  - Manage Beacon configuration
+  - And lots more...
+  All the inputs and responses are JSON. In some cases the response maybe be Gziped. Standard HTTP codes are used to indicate success and error states with accompanying JSON data
+contact:
+  name: LiteHouze (Skiploop Labs Pvt Ltd)
+  url: https://skiploop.com
+  email: support@skiploop.com
+version: "1.0.0"
